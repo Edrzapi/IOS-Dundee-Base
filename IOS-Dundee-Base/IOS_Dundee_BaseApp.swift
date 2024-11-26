@@ -11,7 +11,7 @@ import SwiftUI
 struct IOS_Dundee_BaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TextExampleView()
         }
     }
 }

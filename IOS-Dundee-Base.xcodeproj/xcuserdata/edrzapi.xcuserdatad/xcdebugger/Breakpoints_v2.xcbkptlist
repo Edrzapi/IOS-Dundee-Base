@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4B66D082-EAE0-4A6A-8F92-333757A4423B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA3C1AA-5CFD-4855-A8CF-6F7D781E90A1"
+            shouldBeEnabled = "Yes"
+            condition = "import SwiftUI&#10;&#10;struct ContentView: View {&#10;    let rows = [GridItem(.fixed(50)), GridItem(.fixed(50))] // Two rows, 50px height&#10;    &#10;    var body: some View {&#10;        ScrollView(.horizontal) {&#10;            LazyHGrid(rows: rows, spacing: 20) {&#10;                ForEach(1...20, id: \.self) { item in&#10;                    Text(&quot;Item \(item)&quot;)&#10;                        .frame(width: 100, height: 50)&#10;                        .background(Color.blue)&#10;                        .foregroundColor(.white)&#10;                        .cornerRadius(8)&#10;                }&#10;            }&#10;            .padding()&#10;        }&#10;    }&#10;}&#10;"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS-Dundee-Base/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBD64FD7-564E-4E88-9C14-4B5013BEBBCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS-Dundee-Base/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06A2AF78-1AE3-4866-AF17-35EE5647A48C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS-Dundee-Base/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "242BC1B3-B173-4C66-8B3F-0E3FEF82DB4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS-Dundee-Base/LayoutExampleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
